@@ -1,5 +1,5 @@
 # LaserMaze
-Ardyboy version form the game Laser Maze
+Arduboy version form the game Laser Maze
 
 Laser Maze is a game in which you have to use mirrors to bend the light of a laser beam (the arrow) so that you hit the targets (open circles) on the playing field. 
 
