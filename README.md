@@ -11,7 +11,7 @@ The screen is divided into 2 fields. On the left is the playing field (5x5). You
 On the right are a maximum of 5 mirrors that you have to place in the playing field to solve the level. You can select these mirrors again after placing them in the playing field. Then you can move or rotate the mirror.
 
 Buttons: 
-Arrow buttons: Move cursor (square). 
+Arrow buttons: Move cursor (square).
 A button: If you press A, it selects the mirror that is below the cursor (it will blink). 
 A button: If you press A on an empty cursor position, the selected mirror will move to the cursor position. 
 A button: If you press A on a selected mirror (which flashes), the mirror rotates 90 degrees. 
