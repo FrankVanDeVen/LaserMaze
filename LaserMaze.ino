@@ -395,7 +395,7 @@ void EEPROM_schrijf (int adres_eeprom, byte data_eeprom) {
 }}
 //-------------------------------------------------------------------------------------------
 
-// Routine leest duit van EEPROM
+// Routine leest data uit EEPROM
 byte EEPROM_lees (int adres_eeprom) {
  while(EECR & (1<<EEPE));
  EEAR = adres_eeprom;
