@@ -381,7 +381,6 @@ void print_teksen(){
 }
 //-------------------------------------------------------------------------------------------
 
-// Routine writes data to the specified address in the EEPROM (only if it has changed)
 // Routine schrijft alleen naar EEPROM als data is aangepast
 void EEPROM_schrijf (int adres_eeprom, byte data_eeprom) {
  while(EECR & (1<<EEPE));
@@ -396,7 +395,6 @@ void EEPROM_schrijf (int adres_eeprom, byte data_eeprom) {
 }}
 //-------------------------------------------------------------------------------------------
 
-// Routine reads the data of the specified address from the EEPROM
 // Routine leest duit van EEPROM
 byte EEPROM_lees (int adres_eeprom) {
  while(EECR & (1<<EEPE));
